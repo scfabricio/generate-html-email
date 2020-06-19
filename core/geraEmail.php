@@ -61,6 +61,6 @@ if (!file_exists(dirname(dirname(__FILE__)).'/emails/'.$diretorioEmail)){
 //cria o arquivo
 file_put_contents(dirname(dirname(__FILE__)).'/emails/'.$diretorioEmail.'/'.$arquivo , $conteudo);
 
-header('Location: /gerador-de-emails/');
+header('Location: /generate-html-email/index.php');
 
 ?>
